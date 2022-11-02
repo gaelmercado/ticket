@@ -1,8 +1,10 @@
 :root {
-    --primario: #9C27B0;
-    --primarioOscuro: #89119D;
+    --primario: #191919;
+    --primarioOscuro: #0e0e0e;
+    --botonesClaro: #3498db;
     --secundario: #FFCE00;
     --secundarioOscuro: rgb(233, 187, 2);
+    --verdeCaca: #2ecc71;
     --blanco: #FFF;
     --negro: #000;
 
@@ -89,6 +91,80 @@ h3 {
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--secundario);
+}
+/* login */
+/* .box*/
+@media (min-width: 992px) {   
+    .box {
+        /* width: 30rem;
+        padding: 4rem; */
+        font-size: 3rem;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+        /* top right botton left */
+        padding-bottom: 13rem;
+        /* margin: 100rem 0rem 7rem 0rem; */
+        background-color: var(--primario);
+        text-align: center;
+    }
+}
+.box {
+    /* width: 30rem;
+    padding: 4rem; */
+    font-size: 3rem;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    /* top right botton left */
+    margin: 14rem 0rem 7rem 0rem;
+    background-color: var(--primario);
+    text-align: center;
+}
+/* inputs login*/
+.box__text {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.entradas {
+    border: 0;
+    background:none;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    border: 0.2rem solid var(--botonesClaro);
+    padding: 1.4rem 1rem;
+    width: 20rem;
+    outline: none;
+    color: white;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+}
+
+.entradas:focus {
+    width: 28rem;
+    border-color: var(--secundario);
+}
+
+.buttonLogin {
+    border: 0;
+    background:none;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    border: 0.2rem solid var(--secundario);
+    padding: 1.4rem 4rem;
+    outline: none;
+    color: white;
+    border-radius: 2.4rem;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.buttonLogin:hover {
+    background: var(--secundarioOscuro);
 }
 
 /** Grid **/

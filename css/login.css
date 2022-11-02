@@ -1,5 +1,4 @@
 :root {
-    --ASD: #9C27B0;
     --primario: #34495e;
     --primarioClaro: #3498db;
     --secundario: #191919;
@@ -23,7 +22,8 @@ body {
     font-family: var(--fuentePrincipal);
     background-color: var(--secundario);
 }
-/* .box */
+/* login */
+/* .box*/
 .box {
     /* width: 30rem;
     padding: 4rem; */
@@ -34,7 +34,7 @@ body {
     background-color: var(--secundario);
     text-align: center;
 }
-/* inputs */
+/* inputs login*/
 .box__text {
     color: white;
     text-transform: uppercase;
@@ -74,7 +74,7 @@ body {
     transition: 0.25s;
     cursor: pointer;
 }
-.button:hover {
+.buttonLogin:hover {
     background: var(--verdeCaca);
 }
 /* 
